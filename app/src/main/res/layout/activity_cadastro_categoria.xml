@@ -14,5 +14,20 @@
         android:layout_height="wrap_content"
         android:text="@string/cadastroCatgoria"
         />
+    <EditText
+        android:id="@+id/txtCategoria"
+        style="@style/editTextForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/categoria"
+        android:inputType="text"
+    />
+
+    <Button
+        android:id="@+id/bntCadastrarCategoria"
+        style="@style/butonForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastroCatgoria" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
