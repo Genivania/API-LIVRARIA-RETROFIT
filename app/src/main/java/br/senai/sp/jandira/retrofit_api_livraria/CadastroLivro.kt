@@ -44,7 +44,7 @@ class CadastroLivro : AppCompatActivity() {
 
             //NAVEGACAO PARA TELA DE IMAGENS E LIVRO
             val intent = Intent(this, CadastroLivroImagem::class.java).apply {
-                putExtra("boryJson", bory.toString())
+                putExtra("boryJSON", bory.toString())
             }
 
         startActivity(intent)
