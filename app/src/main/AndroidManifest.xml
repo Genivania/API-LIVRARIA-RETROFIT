@@ -16,11 +16,15 @@
         android:theme="@style/Theme.RETROFITAPILIVRARIA"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+
 <!--        <activity-->
-<!--            android:name=".Cadastro_Categoria"-->
+<!--            android:name=".CadastroLivro"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".Cadastro_Categoria" -->
+        <!-- android:exported="false" /> -->
         <activity
-            android:name=".Cadastro_Categoria"
+            android:name=".CadastroLivro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
