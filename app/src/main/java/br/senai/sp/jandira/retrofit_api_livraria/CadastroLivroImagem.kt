@@ -31,6 +31,7 @@ class CadastroLivroImagem : AppCompatActivity() {
     private var btnUpload : Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.cadastro_livro_imagem)
 
@@ -38,7 +39,10 @@ class CadastroLivroImagem : AppCompatActivity() {
         val bodyJson = intent.getStringExtra("boryJSON")
         Log.e("Teste-Json", bodyJson.toString())
 
+        //RECUPERA OS ELEMENTOS DE VIEW DE IMAGENS
 
+
+        //RECUPERA OS ELEMENTOS DE VIEW DE BUTTON
 
     }
 }
