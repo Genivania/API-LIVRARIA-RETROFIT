@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.Toast
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
 
@@ -45,6 +46,24 @@ class CadastroLivroImagem : AppCompatActivity() {
 
         //RECUPERA OS ELEMENTOS DE VIEW DE BUTTON
         btnUpload = findViewById<Button>(R.id.btnCadastrarLivro)
+
+
+        //TRATAMENTO DO EVENTO DE CLICK DO BOTÃO DE IMAGEM GRANDE
+
+        btnImgGRD?.setOnClickListener {
+            Toast(this, "BOTAO DA IMAGEM GRANDE", Toast.LENGTH_LONG).show()
+        }
+
+        //TRATAMENTO DO EVENTO DE CLICK DO BOTAO DE IMAGEM PEQUENA
+        btnImgPEQ?.setOnClickListener {
+            Toast(this, "BOTAO DA IMAGEM PEQUENA", Toast.LENGTH_LONG).show()
+        }
+
+
+        //TRATAMENTO DO EVENTO DE CLICK DO BOTAO DE CADASTRO
+        btnUpload?.setOnClickListener {
+            Toast(this, "BOTAO DE CADASTRO", Toast.LENGTH_LONG).show()
+        }
 
 
 
