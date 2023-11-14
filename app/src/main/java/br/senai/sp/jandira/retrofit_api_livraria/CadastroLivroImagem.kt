@@ -40,9 +40,13 @@ class CadastroLivroImagem : AppCompatActivity() {
         Log.e("Teste-Json", bodyJson.toString())
 
         //RECUPERA OS ELEMENTOS DE VIEW DE IMAGENS
-
+        btnImgGRD = findViewById<ImageView>(R.id.imgGRD)
+        btnImgPEQ = findViewById<ImageView>(R.id.imgPEQ)
 
         //RECUPERA OS ELEMENTOS DE VIEW DE BUTTON
+        btnUpload = findViewById<Button>(R.id.btnCadastrarLivro)
+
+
 
     }
 }
